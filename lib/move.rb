@@ -20,7 +20,7 @@ def move (board, input, char="X")
   def update_array_at_with(array, index, value)
     array[index]=value
   end
-  update_array_at_with(board, index, char)
+  update_array_at_with(board, index, char="X")
   return board
 end
 
